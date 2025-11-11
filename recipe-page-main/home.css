@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: hsl(31, 61%, 85%);
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px;
+}
+
+.recipie-box {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  color: hsl(332, 51%, 32%);
+  background-color: whitesmoke;
+  width: 33%;
+  height: 273vh;             
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  width: 105%;            
+  height: 220px;
+  border-radius: 14px;
+  object-fit: cover;        
+  margin-bottom: 15px;
+}
+
+
+h1 {
+  margin-top: 5px;
+  color: #000000;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding-right: 86px;
+}
+
+p{
+    font-size: small;
+    color: hsl(30, 10%, 34%);
+    padding-top: 10px;
+}
+
+.thin{
+    display: flex;
+    background-color: hsl(327, 31%, 94%);
+
+    border-radius: 12px;
+    padding: 7px;
+    flex-direction: column;
+}
+
+.cont2{
+  margin-bottom: 4em;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list li{
+   margin-bottom: px 0; 
+  padding: 8px;
+  border-radius: 8px;
+  margin-left: 30px;
+margin-top: 1px;
+color: hsl(30, 6%, 19%);
+  
+  
+}
+
+.list li::marker{
+  color: hsl(332, 51%, 32%);
+}
+
+.Ing {
+  color: hsl(14, 45%, 36%);
+  padding-top: 23px;
+  font-size: 26px;
+  padding-bottom: 17px;
+  font-family: 'Times New Roman', Arial,;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lie li{
+  margin-bottom: px 0; 
+  padding: 7px;
+  border-radius: 8px;
+  margin-left: 30px;
+margin-top: 1px;
+color: hsl(30, 6%, 19%);
+
+}
+
+.lie::marker{
+   color: hsl(14, 45%, 36%);
+}
+
+.Ingredient{
+  display: flex;
+    width: 100%;
+    height: 26vh;
+    border-radius: 12px;      
+    flex-direction: column;
+}
+.box3{ 
+  padding:24px;
+  padding-left: 22px;
+}
+
+.border-line{
+  height: 1px;
+  width: 90%;
+  margin: 20px 0;
+  background-color: #792d2d;;
+}
+
+.box{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 190%;
+    height: 26vh;
+    border-radius: 12px;
+    padding: 7px;
+    flex-direction: column;
+}
+.nelly{
+  color: hsl(14, 45%, 36%);
+  font-family: 'Times New Roman', Arial,
+}
+
+.ins li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: hsl(14, 45%, 36%);
+}
+
+.para{
+  font-size: 14px;
+}
+
+h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  color: hsl(24, 4%, 26%);
+  font-weight: lighter;
+}
+
+.last{
+  display: flex;
+  padding-top: 29px;
+}
+
+.item1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.tna{
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin-bottom: 8px;
+  
+  
+}
+
+.red{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(100, 96, 96);
+}
+
+.tan{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: hsl(14, 45%, 36%);
+}
+
+span{
+  background-color: #d6d4d4;
+  height: 0.1px;
+  width: 390px;
+
+}
+.main{
+  align-items: start;
+}
+
+.tna2{
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+
+.red2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(100, 96, 96);
+  margin-right: 25px;
+}
+
+.tan2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: hsl(14, 45%, 36%);
+}
+
+
+.tna3{
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+
+.red3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(100, 96, 96);
+  margin-right: 14px;
+}
+
+.tan3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: hsl(14, 45%, 36%);
+}
+
+
+
+.tna4{
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin-bottom: 8px;
+  margin-right: 2px;
+}
+
+.red4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(100, 96, 96);
+  margin-right: 34px;
+}
+
+.tan4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: hsl(14, 45%, 36%);
+}
+
